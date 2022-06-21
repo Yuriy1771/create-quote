@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="modal-window.css">
+	<title>Modal-window</title>
+</head>
+<body>
+	<div class="container">
+		<button class="createQuoteBtn">Create quote</button>
+		<br>
+		<div class="quoteZone">
+			<div class="quoteBlock">
+				<p class="nameQuote">@Юрий</p>
+				<p class="quoteText">Ты не ты когда голоден, поешь и станешь собой!</p>
+			</div>
+		</div>
+		<div class="modalWindow" id="myModal">
+			<div class="modalContent">
+				<span class="closeBtn">&times;</span>
+				<input type="text" class="inputForName" placeholder="Name...">
+				<br>
+				<textarea class="textareaForQuote" placeholder='Write quote...'></textarea>
+				<br>
+				<button class="saveQuoteBtn">Save quote</button>
+			</div>
+		</div>
+	</div>
+<script src='modal-window.js'></script>
+</body>
+</html>
